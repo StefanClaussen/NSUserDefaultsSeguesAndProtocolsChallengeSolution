@@ -21,6 +21,8 @@
 		F85CE5C4191D03C8008B67ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85CE5A6191D03C8008B67ED /* UIKit.framework */; };
 		F85CE5CC191D03C8008B67ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85CE5CA191D03C8008B67ED /* InfoPlist.strings */; };
 		F85CE5CE191D03C8008B67ED /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CE5CD191D03C8008B67ED /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		F85CE5D9191D0462008B67ED /* STCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CE5D8191D0462008B67ED /* STCSignInViewController.m */; };
+		F85CE5DC191D04A6008B67ED /* STCCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CE5DB191D04A6008B67ED /* STCCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		F85CE5C9191D03C8008B67ED /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F85CE5CB191D03C8008B67ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F85CE5CD191D03C8008B67ED /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		F85CE5D7191D0462008B67ED /* STCSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCSignInViewController.h; sourceTree = "<group>"; };
+		F85CE5D8191D0462008B67ED /* STCSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCSignInViewController.m; sourceTree = "<group>"; };
+		F85CE5DA191D04A6008B67ED /* STCCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCCreateAccountViewController.h; sourceTree = "<group>"; };
+		F85CE5DB191D04A6008B67ED /* STCCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				F85CE5B1191D03C8008B67ED /* STCAppDelegate.h */,
 				F85CE5B2191D03C8008B67ED /* STCAppDelegate.m */,
 				F85CE5B4191D03C8008B67ED /* Main.storyboard */,
+				F85CE5D7191D0462008B67ED /* STCSignInViewController.h */,
+				F85CE5D8191D0462008B67ED /* STCSignInViewController.m */,
+				F85CE5DA191D04A6008B67ED /* STCCreateAccountViewController.h */,
+				F85CE5DB191D04A6008B67ED /* STCCreateAccountViewController.m */,
 				F85CE5B7191D03C8008B67ED /* STCViewController.h */,
 				F85CE5B8191D03C8008B67ED /* STCViewController.m */,
 				F85CE5BA191D03C8008B67ED /* Images.xcassets */,
@@ -251,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85CE5AF191D03C8008B67ED /* main.m in Sources */,
+				F85CE5D9191D0462008B67ED /* STCSignInViewController.m in Sources */,
 				F85CE5B9191D03C8008B67ED /* STCViewController.m in Sources */,
 				F85CE5B3191D03C8008B67ED /* STCAppDelegate.m in Sources */,
+				F85CE5DC191D04A6008B67ED /* STCCreateAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
