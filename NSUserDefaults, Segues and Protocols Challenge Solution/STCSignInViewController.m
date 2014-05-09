@@ -46,9 +46,13 @@
 }
 */
 
-- (IBAction)createAccountBarButtonItemPressed:(UIBarButtonItem *)sender {
+- (IBAction)createAccountBarButtonItemPressed:(UIBarButtonItem *)sender
+{
+    [self performSegueWithIdentifier:@"toCreateAccountViewControllerSegue" sender:sender];
 }
 
-- (IBAction)loginButtonPressed:(UIButton *)sender {
+- (IBAction)loginButtonPressed:(UIButton *)sender
+{
+    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
 }
 @end

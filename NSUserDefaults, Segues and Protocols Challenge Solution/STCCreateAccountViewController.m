@@ -46,9 +46,13 @@
 }
 */
 
-- (IBAction)createAccountButtonPressed:(UIButton *)sender {
+- (IBAction)createAccountButtonPressed:(UIButton *)sender
+{
+    
 }
 
-- (IBAction)cancelButtonPressed:(UIButton *)sender {
+- (IBAction)cancelButtonPressed:(UIButton *)sender
+{
+    
 }
 @end
