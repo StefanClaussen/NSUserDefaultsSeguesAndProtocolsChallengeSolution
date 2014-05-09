@@ -35,16 +35,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([segue.destinationViewController isKindOfClass:[STCCreateAccountViewController class]]) {
+        STCCreateAccountViewController *createAccountVC = segue.destinationViewController;
+        createAccountVC.delegate =self;
+    }
 }
-*/
+
 
 - (IBAction)createAccountBarButtonItemPressed:(UIBarButtonItem *)sender
 {
@@ -55,4 +56,18 @@
 {
     [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
 }
+
+#pragma mark - STCCreateAccountViewController Delegate
+
+- (void)didCancel
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)didCreateAccount
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
 @end

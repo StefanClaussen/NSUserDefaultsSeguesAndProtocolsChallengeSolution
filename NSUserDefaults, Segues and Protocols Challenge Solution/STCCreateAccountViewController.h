@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol STCCreateAccountViewControllerDelegate <NSObject>
+
+- (void)didCancel;
+- (void)didCreateAccount;
+
+@end
+
 @interface STCCreateAccountViewController : UIViewController
+
+@property (weak, nonatomic) id <STCCreateAccountViewControllerDelegate> delegate;
 
 @property (strong, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STCCreateAccountViewController.h"
 
-@interface STCSignInViewController : UIViewController
+@interface STCSignInViewController : UIViewController <STCCreateAccountViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
